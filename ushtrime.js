@@ -21,5 +21,12 @@ console.log("My eye color is " + deti.eyecolor.toUpperCase() + ". My age is  " +
 console.log("My name is " + era.name.toUpperCase() + ". My last name is " + era.lastname.toUpperCase());
 console.log("My age is " + era.age + ". My eye color is " + era.eyecolor.toUpperCase());
 
-
+///////////////// manipulimet me Array ///////
+var veturat= "";
+var cars = ["Saab", "Volvo","BMW", "audi","mercedes"];
+var llojet;
+for (llojet in cars) {
+    veturat += cars[llojet]  + " ";
+}
+console.log(veturat.toUpperCase());
 
