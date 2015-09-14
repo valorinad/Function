@@ -30,3 +30,8 @@ for (llojet in cars) {
 }
 console.log(veturat.toUpperCase());
 
+//////// bashkimi i arrave//////
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits[fruits.length] = "Kiwi"; 
+var str =fruits.concat("peach","green apple")
+console.log(str);
